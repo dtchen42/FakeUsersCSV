@@ -1,0 +1,1 @@
+﻿New-GPO -Name "Change System Time" | New-GPLink -Target "OU=Sales,OU=Group Policy OU,DC=pompeii15,DC=net" -LinkEnabled Yes
